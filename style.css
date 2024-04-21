@@ -1,0 +1,40 @@
+#display, #clear{
+    margin: 1px;
+    border: 1px solid red;
+    width:fit-content;
+}
+
+#clear{
+    color: red;
+}
+
+#display{
+    width: 100px;
+    height: 24px;
+    border: 1px solid blue;
+}
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+}
+
+#num-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+#equals{
+    width: 24px;
+}
+
+#decimal{
+    width: 24px;
+}
+
+#operators{
+    width: 100px;
+}
